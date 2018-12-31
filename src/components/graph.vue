@@ -1,8 +1,7 @@
 <template>
     <div >
         <h3>This is the graph component</h3>
-        <p v-if="stats !== null">Accounts Created: {{stats.stats[0].accounts_created}}</p>
-        <p v-if="stats !== null">On {{stats.stats[0].date}}</p>
+        <p v-if="stats !== null">Accounts Created: {{stats.stats[0].accounts_created}} On {{stats.stats[0].date}}</p>
 
 
     </div>
