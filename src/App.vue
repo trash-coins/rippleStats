@@ -10,7 +10,7 @@
 
     <div class="container">
       <div class="row white-text">
-        <div class="class col s12 m6">
+        <div class="class col s12 m6" id="tweet">
           <h4> Latest tweets from Ripple Lab CEO </h4>
           <div id="timeline">
             <Timeline :id="'bgarlinghouse'" :sourceType="'profile'" :options="{ tweetLimit: '2' }"/>  
@@ -49,7 +49,7 @@ export default {
 body {
   background-color: black;
 }
-.timeline {
+.tweet {
   size: 50%;
 
 }
