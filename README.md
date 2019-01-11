@@ -16,6 +16,7 @@ TODO:
 
 5. BTC/ETH/XRP donation port.
 6. Page dedicated to XRP trading ideas sourced from trading view.
+7. Deploy to Heroku under newly acquired domain name.
 
 
 # Development Refactoring
@@ -23,7 +24,11 @@ TODO:
 1. Strict component architecture 
     - Move things out of app file 
     - One component for each graph 
-    
+
+## Design and CSS 
+1. Define color scheme.
+2. Matrix themed 'revolution load...' on landing page.
+3. Create wire frames for each page to define devsign. 
 
 
 
