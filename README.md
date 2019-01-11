@@ -4,7 +4,7 @@
 This project will be contain all thing XRP/Ripple.
 Ranging from importing social media from key members of both the XRP community and development team to statistics and market share regarding XRP. 
 
-TODO
+TODO:
 1. D3 line/bar graph component to show the number of created accounts per day.
     - Static dates at first
     - Allow user to select start and end dates to add dynamic interaction
@@ -15,6 +15,16 @@ TODO
 4. Separate page dedicated to XRP related documents SOURCED from ForTheLoveOfCrypto youtube page.
 
 5. BTC/ETH/XRP donation port.
+6. Page dedicated to XRP trading ideas sourced from trading view.
+
+
+# Development Refactoring
+
+1. Strict component architecture 
+    - Move things out of app file 
+    - One component for each graph 
+    
+
 
 
 ## Project setup
