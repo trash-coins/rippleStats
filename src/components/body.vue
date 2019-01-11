@@ -6,14 +6,12 @@
 </template>
 
 <script>
-import Graph from './graph.vue'
+import Graph from './graph.vue';
 export default {
     components: {
         Graph
     }
-
-
-}
+};
 </script>
 
 <style>

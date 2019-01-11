@@ -4,16 +4,16 @@
     </div>
   </template>
 
-  <script>
-  import Timeline from 'vue-tweet-embed'
+<script>
+import Timeline from 'vue-tweet-embed';
 
-  export default {
+export default {
     components: {
         Timeline
     },
 
-  }
-  </script>
+};
+</script>
   <style scoped>
 
   </style>

@@ -13,7 +13,7 @@ export default {
     data() {
         return {
             stats: null
-        }
+        };
     },
     created() {
 
@@ -21,9 +21,9 @@ export default {
             .then(s => {
                 this.stats = s;
 
-            })
+            });
     }
-}
+};
 </script>
 
 <style>

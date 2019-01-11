@@ -28,20 +28,20 @@
 </template>
 
 <script>
-import Header from './components/Header'
-import Body from './components/body'
-import Timeline from 'vue-tweet-embed/timeline'
+import Header from './components/Header';
+import Body from './components/body';
+import Timeline from 'vue-tweet-embed/timeline';
 
 export default {
-  components: {
-    Header, 
-    Body, 
-    Timeline
+    components: {
+        Header, 
+        Body, 
+        Timeline
 
-  }
+    }
 
  
-}
+};
 </script>
 
 <style>
