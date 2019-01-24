@@ -6,8 +6,12 @@
       <div>
         <Header class="blue darken-1 white-text"/>
       </div>
+      <RouterView></RouterView>
     </div>
 
+  <div>
+    <Docs/>
+  </div>
   </div>
 </template>
 

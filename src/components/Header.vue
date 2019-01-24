@@ -17,11 +17,17 @@ export default {
 </script>
 
 <style>
+h1 {
+    padding-top: 20px;
+}
 .nav {
   background-color: #ffffff !important;
+
 }
 .link {
+    text-align: center;
     color: black;
+    padding-right: 80px;
 }
 
 </style>
