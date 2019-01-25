@@ -2,35 +2,25 @@
 <section class="app">
   <h6>Accounts</h6>
   <p>Hello {{accounts}}</p>
- <Charts />
+  <line-chart></line-chart>
 </section>
 </template>
 
 <script>
 import RippleApi from '../services/rippleApi';
 // import { Line } from 'vue-chartjs';
-import Charts from './charts';
+
 export default {
     
-    components: { 
-        Charts
+    
+
+
+    data() {
+        return {
+            accounts: null
+        };
     },
-    data: () => ({
-        accounts: {
-            labels: ['January', 'February'],
-            datasets: [
-                {
-                    label: 'Data One',
-                    backgroundColor: '#f87979',
-                    data: [40, 20]
-                }
-            ]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false
-        }
-    }),
+
     created() {
 
         RippleApi.getStats()
@@ -40,7 +30,26 @@ export default {
                     return stat.accounts_created;
                 });
                 console.log('hello', this.accounts);
-            });    
+            });
+        
+        // Vue.component('line-chart', {
+        //     extends: Line,
+        //     mounted() {
+        //         this.renderChart({
+        //             labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+        //             datasets: [
+        //                 {
+        //                     label: 'Data One',
+        //                     backgroundColor: '#f87979',
+        //                     data: [1, 2, 3, 4, 5, 6, 7]
+        //                 }
+        //             ]
+        //         }, { responsive: true, maintainAspectRatio: false });
+        //     }
+
+        // });
+
+        
 
     }
 };
