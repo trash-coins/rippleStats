@@ -9,9 +9,7 @@
       <RouterView></RouterView>
     </div>
 
-  <div>
-    <Docs/>
-  </div>
+ 
   </div>
 </template>
 
