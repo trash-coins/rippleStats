@@ -26,7 +26,9 @@ export default {
 <style>
 
 body {
-  background-color: black;
+  /* background-color: black; */
+   background-image: url('./assets/blockchain.jpeg');
+  opacity: 0.95;
 }
 .tweet {
   size: 50%;

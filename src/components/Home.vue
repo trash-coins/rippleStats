@@ -2,24 +2,26 @@
      <div id="app">
         <div class="container">
             <div>
-                <h2>Page Header</h2>
+            
             </div>
         </div>
 
         <div class="container">
             <div class="row white-text">
-                <div class="class col s12 m6" id="tweet">
+                <div class="class col s12 m4" id="tweet">
                 <h4> Latest tweets from Ripple Lab CEO </h4>
                 <div id="timeline">
                     <Timeline :id="'bgarlinghouse'" :sourceType="'profile'" :options="{ tweetLimit: '2' }"/>  
                 </div>
                 </div>
 
-                <div class="col s12 m5 push-m1">
-                <Body/>  
+                <div class="col s12 m10 push-m1">
+            <Body/>  
                 </div>      
             </div>
+        <div>                
         </div>
+</div>
     </div>
 </template>
 
@@ -42,5 +44,5 @@ export default {
  h2 {
      color: white;
  }
-
+#timeline {width:33%}
 </style>

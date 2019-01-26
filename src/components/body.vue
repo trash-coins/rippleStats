@@ -1,7 +1,7 @@
 <template>
     <div>
         <Graph/>
-        <div>
+        <div v-if="accounts.datasets[0].data">
             <charts :chartdata="accounts" />
         </div>
     </div>
@@ -18,17 +18,17 @@ export default {
     },
     data: () => ({
         accounts: {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+            labels: ['January2017', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', 'January2017', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', 'January2017', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December', 'January2017', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
             datasets: [
                 {
-                    label: 'Data One',
+                    label: 'Accounts Created',
                     backgroundColor: '#f87979',
                     data: null
                 }
             ]
         },
         options: {
-            responsive: true,
+            responsive: false,
             maintainAspectRatio: false
         },
     }),

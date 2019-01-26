@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>
-            This is a page about Ripple Stats
+            TRASHCOIN
         </h1>
         <nav class="nav">
             <RouterLink class="link" to="/" >Home</RouterLink>
